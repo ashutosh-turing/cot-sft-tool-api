@@ -1,0 +1,24 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+openpyxl
+requests
+beautifulsoup4
+aiofiles
+# For auth, if you use JWT tokens or OAuth
+python-jose[cryptography]
+httpx
+# For async websockets
+websockets
+# For caching (optional, only if you want Redis support)
+redis
+# For CORS (already comes with FastAPI but explicit here)
+fastapi[all]
+# If you plan to use Google Auth library directly
+google-auth
+google-auth-oauthlib
+python-dotenv
+openai>=1.2.0,<2.0.0
+sqlalchemy
+psycopg2-binary
